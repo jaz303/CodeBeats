@@ -183,7 +183,7 @@
     */
     function getSavedCode(name)
     {
-        return localStorage.getItem(name || "codebeats-last-code");
+        return localStorage.getItem(name || "codebeats-last-code") || '';
     }
 
     /**
